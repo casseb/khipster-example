@@ -1,0 +1,53 @@
+{
+  "generator-jhipster-kotlin": {
+    "promptValues": {
+      "packageName": "com.bycasseb"
+    },
+    "jhipsterVersion": "6.2.0",
+    "applicationType": "monolith",
+    "baseName": "khipsterexample",
+    "packageName": "com.bycasseb",
+    "packageFolder": "com/bycasseb",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MzU0NDlhMjBkODdjZDI5NjEwZDIwYjY2M2YzMDRiYjZhOTZlNWFkMDY1NTk5ZWQyNjFkZGQ1ZjZmZjFiYmFmZThhMTA0YTZmYWI3ZWI1NTgwODhjN2JmMGE5NjgzZDBkMTEyY2FjN2EzNGE3MjVlNDBkNDlkYjY1YjIwMGMwOGM="
+  },
+  "generator-jhipster": {
+    "jhipsterVersion": "6.2.0",
+    "applicationType": "monolith",
+    "baseName": "khipsterexample",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": ["cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.1.0"
+      }
+    ],
+    "enableTranslation": false,
+    "blueprints": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.1.0"
+      }
+    ]
+  }
+}
